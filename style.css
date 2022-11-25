@@ -27,6 +27,9 @@ p {
 
 body {
   margin: 0;
+  background-image: url(/image/background.gif);
+  background-repeat: no-repeat;
+  background-size: 200%;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 800px;
   margin: var(--spacing-regular) auto;
@@ -34,8 +37,8 @@ body {
 
 .container {
   display: grid;
-  background-image: url("/image/sky-clouds.gif");
-  background-size: 200%;
+  background-image: url(/image/background.gif);
+  background-size: cover;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "search search"
