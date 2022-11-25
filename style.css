@@ -34,6 +34,8 @@ body {
 
 .container {
   display: grid;
+  background-image: url("/image/sky-clouds.gif");
+  background-size: 200%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "search search"
@@ -69,8 +71,6 @@ body {
 
 #current-forecast .description {
   text-transform: capitalize;
-  /* font-size: var(--font-regular);
-  font-weight: var(--font-semibold); */
 }
 
 #current-forecast .description,
